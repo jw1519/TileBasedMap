@@ -504,10 +504,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numberofblocks: 20
-  Grass: {fileID: 7025978215801612146, guid: 81b835436f4d49e43905d4b26fe8540a, type: 3}
-  Sand: {fileID: 7025978215801612146, guid: 328f4fa36a956f74d95edf1e9da9d423, type: 3}
-  Water: {fileID: 7025978215801612146, guid: 3839db34624f27e4ea3bf994757cd5b6, type: 3}
-  Width: 20
+  grass: {fileID: 7025978215801612146, guid: 81b835436f4d49e43905d4b26fe8540a, type: 3}
+  sand: {fileID: 7025978215801612146, guid: 328f4fa36a956f74d95edf1e9da9d423, type: 3}
+  water: {fileID: 7025978215801612146, guid: 3839db34624f27e4ea3bf994757cd5b6, type: 3}
+  Tree: {fileID: 8895744510060602088, guid: 436df88d0ba38564782e1c304e69d10d, type: 3}
+  width: 10
   height: 20
   spacing: 2
 --- !u!4 &1612788560

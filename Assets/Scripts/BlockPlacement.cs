@@ -8,13 +8,13 @@ using Unity.VisualScripting;
 public class BlockPlacement : MonoBehaviour
 {
     public int numberofblocks = 40;
-    public GameObject Grass; // accessing Game objects
-    public GameObject Sand;
-    public GameObject Water;
+    public GameObject grass; // accessing Game objects
+    public GameObject sand;
+    public GameObject water;
     public GameObject Tree;
 
 
-    public float Width = 5f;
+    public float width = 5f;
     public float height = 5f;
     public float spacing = 5f;
 
@@ -23,9 +23,9 @@ public class BlockPlacement : MonoBehaviour
     void Start()
     {
         var random = new System.Random();
-        var list = new List<GameObject> { Grass, Sand, Water };
+        var list = new List<GameObject> { grass, sand, water };
 
-        for (int y = 0; y < Width; y++)
+        for (int y = 0; y < width; y++)
         { 
             for (int x = 0; x < height; x++ )
             {
