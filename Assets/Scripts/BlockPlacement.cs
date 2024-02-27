@@ -23,15 +23,15 @@ public class BlockPlacement : MonoBehaviour
     void Start()
     {
         var random = new System.Random();
-        var list = new List<GameObject> { grass, sand, water };
+        var Blocklist = new List<GameObject> { grass, sand, water };
 
         for (int y = 0; y < width; y++)
         { 
             for (int x = 0; x < height; x++ )
             {
                 Vector3 pos = new Vector3(x, 0, y) * spacing;
-                int index = random.Next(list.Count);
-                Instantiate(list[index], pos, Quaternion.identity); 
+                int index = random.Next(Blocklist.Count);
+                Instantiate(Blocklist[index], pos, Quaternion.identity); 
             }
         }
     }
