@@ -12,8 +12,8 @@ public class BlockPlacement : MonoBehaviour
     public GameObject grass;
     public GameObject sand;
     public GameObject water;
+    public GameObject grassAndTree;
 
-    public GameObject Tree;
 
 
     public float width = 5f;
@@ -25,7 +25,7 @@ public class BlockPlacement : MonoBehaviour
     void Start()
     {
         var random = new System.Random();
-        var Blocklist = new List<GameObject> { grass, sand, water }; // List of tiles used in the map
+        var Blocklist = new List<GameObject> { grass, sand, water, grassAndTree }; // List of tiles used in the map
 
         for (int y = 0; y < width; y++)
         { 

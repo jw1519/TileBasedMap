@@ -507,7 +507,7 @@ MonoBehaviour:
   grass: {fileID: 7025978215801612146, guid: 81b835436f4d49e43905d4b26fe8540a, type: 3}
   sand: {fileID: 7025978215801612146, guid: 328f4fa36a956f74d95edf1e9da9d423, type: 3}
   water: {fileID: 7025978215801612146, guid: 3839db34624f27e4ea3bf994757cd5b6, type: 3}
-  Tree: {fileID: 8895744510060602088, guid: 436df88d0ba38564782e1c304e69d10d, type: 3}
+  grassAndTree: {fileID: 3820586069209574746, guid: 3c8d6e73f61719b4296e3f571eda8200, type: 3}
   width: 10
   height: 20
   spacing: 2
