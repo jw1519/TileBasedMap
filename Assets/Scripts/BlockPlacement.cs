@@ -23,7 +23,7 @@ public class BlockPlacement : MonoBehaviour
     void Start()
     {
         var random = new System.Random();
-        var Blocklist = new List<GameObject> { grass, sand, water };
+        var Blocklist = new List<GameObject> { grass, sand, water }; //List of tiles used in the map
 
         for (int y = 0; y < width; y++)
         { 
