@@ -34,6 +34,7 @@ public class BlockPlacement : MonoBehaviour
                 Vector3 pos = new Vector3(x, 0, y) * spacing;
                 int index = random.Next(Blocklist.Count);
                 Instantiate(Blocklist[index], pos, Quaternion.identity); 
+
             }
         }
     }
